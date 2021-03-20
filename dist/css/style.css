@@ -67,12 +67,17 @@ a:hover {
 }
 
 h1 {
+  font-size: 3rem;
   color: #fff;
 }
 
 p,
 ol {
   color: gray;
+  font-size: 1.5rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 @media only screen and (max-width: 750px) {
@@ -96,6 +101,13 @@ ol {
   section form input,
   section form label {
     font-size: 1.5rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  p,
+  ol {
+    margin: 0rem 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

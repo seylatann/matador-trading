@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+html {
+  font-size: 62.5%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+
+  .logo {
+    height: 15rem;
+    width: 35rem;
+  }
+}
+form {
+  margin-top: 10rem;
+
+  input,
+  label {
+    font-size: 2rem;
+    color: #fff;
+  }
+  label {
+    margin-left: 1rem;
+  }
+}
+#discord-join {
+  color: #000;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  transition-duration: 1s;
+}
+
+#discord-join:hover {
+  background-color: #880606;
+}
+
+a:link {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #49c0dd;
+}
+
+h1 {
+  color: #fff;
+}
+
+p,
+ol {
+  color: gray;
+}
+
+@media only screen and (max-width: 750px) {
+  * {
+    font-size: 15px;
+  }
+  section {
+    .logo {
+      height: 10rem;
+      width: 25rem;
+    }
+    .name {
+      width: 25rem;
+    }
+
+    #discord-join {
+      font-size: 1.8rem;
+      padding: 8px 13px;
+    }
+    form {
+      margin-top: 5rem;
+
+      input,
+      label {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
